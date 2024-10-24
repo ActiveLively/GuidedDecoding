@@ -85,3 +85,9 @@ Coming soon!
 ```console
 run main.py --train --dataset DATASET --resolution RESOLUTION --model MODEL_NAME --data_path PATH_TO_TRAINING_DATA --num_workers=NUM_WORKERS --save_checkpoint PATH_TO_CHECKPOINTS
 ```
+
+## Run Kaggle Dataset 
+```console
+python main.py --train --dataset nyu_reduced --resolution full --model GuideDepth --data_path data/data.zip --num_workers=8
+```
+The zipped dataset should be placed (in this case) under "data" folder
